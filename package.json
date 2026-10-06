@@ -1,0 +1,26 @@
+{
+  "name": "sologsb-1026-phonics-course-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --host 0.0.0.0",
+    "build": "vite build",
+    "prebuild": "svelte-kit sync",
+    "prepare": "svelte-kit sync",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-static": "3.0.10",
+    "@sveltejs/kit": "2.50.2",
+    "carbon-components-svelte": "0.112.0",
+    "svelte": "5.48.4"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "5.1.1",
+    "svelte-check": "4.3.2",
+    "typescript": "5.9.3",
+    "vite": "6.4.3"
+  }
+}
