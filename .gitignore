@@ -1,0 +1,6 @@
+node_modules
+.svelte-kit
+build
+*.log
+.DS_Store
+scripts/.verify.cjs
